@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Enemigos>
+	<Hormiga></Hormiga>
+	<Hormiga></Hormiga>
+	<Hormiga></Hormiga>
+	<Hormiga></Hormiga>
+	<Hormiga></Hormiga>
+	<Hormiga></Hormiga>
+	<Mosquito></Mosquito>
+	<Mosquito></Mosquito>
+	<Mosquito></Mosquito>
+	<Mosquito></Mosquito>
+	<Mosquito></Mosquito>
+	<Mosquito></Mosquito>
+	<Mosquito></Mosquito>
+	<Arania></Arania>
+	<Arania></Arania>
+	<Arania></Arania>
+	<Arania></Arania>
+	<Arania></Arania>	
+	<Mosca></Mosca>
+	<Mosca></Mosca>
+	<Mosca></Mosca>
+	<Mosca></Mosca>
+	<Abeja></Abeja>
+	<Abeja></Abeja>
+	<Abeja></Abeja>
+	<Cucaracha></Cucaracha>
+	<Cucaracha></Cucaracha>
+	<Pulga></Pulga>
+</Enemigos>

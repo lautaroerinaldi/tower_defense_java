@@ -1,0 +1,24 @@
+****************************************
+Fiuba Defence
+Version 8.0 (Español)
+****************************************
+
+Fiuba Defence para la PC. Este archivo contiene información sobre el proyecto.
+
+****************************************
+1) Instalación
+****************************************
+
+Para la instalación del software y su forma de uso, por favor consulte con el manual que se encuentra en la carpeta doc/Documentacion externa/ 
+
+****************************************
+2) Créditos
+****************************************
+
+Apellido y Nombre: Bodnar, Ivan
+
+Apellido y Nombre: Ponce, Matias
+
+Apellido y Nombre: Rinaldi, Lautaro
+
+Apellido y Nombre: Salina, Federico

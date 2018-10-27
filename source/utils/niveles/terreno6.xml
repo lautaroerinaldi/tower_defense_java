@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Terreno>
+    <PuertaEntrada X="2" Y="5"/>
+    <Camino X="3" Y="6"/>
+    <Camino X="4" Y="7"/>
+    <Camino X="5" Y="8"/>
+    <Camino X="6" Y="7"/>
+    <Camino X="7" Y="6"/>
+    <Camino X="8" Y="5"/>
+    <Camino X="9" Y="6"/>
+    <Camino X="10" Y="7"/>
+    <Camino X="11" Y="8"/>
+    <Camino X="12" Y="9"/>
+    <Camino X="13" Y="10"/>
+    <Camino X="14" Y="9"/>
+    <Camino X="15" Y="10"/>
+    <Camino X="16" Y="11"/>
+    <Camino X="17" Y="12"/>
+    <Camino X="18" Y="11"/>
+    <Camino X="19" Y="10"/>
+    <Camino X="18" Y="9"/>
+    <Camino X="17" Y="8"/>
+    <Camino X="16" Y="7"/>
+    <Camino X="15" Y="6"/>
+    <Camino X="14" Y="5"/>
+    <Camino X="13" Y="6"/>
+    <Camino X="12" Y="7"/>
+    <Camino X="11" Y="8"/>
+    <Camino X="10" Y="9"/>
+    <Camino X="9" Y="10"/>
+    <Camino X="8" Y="11"/>
+    <Camino X="7" Y="12"/>
+    <Camino X="6" Y="13"/>
+    <Camino X="5" Y="14"/>
+    <PuertaSalida X="4" Y="13"/>
+</Terreno>

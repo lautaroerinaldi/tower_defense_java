@@ -1,0 +1,54 @@
+<!-- build.xml -->
+<project name="tpalgo3c1g8" default="run" basedir=".">
+
+	<!-- Variables de configuracion -->
+	<!-- Directorios -->
+	<property name="src"		value="${basedir}/src" />
+	<property name="classes"	value="${basedir}/class" />
+	<property name="lib"		value="${basedir}/lib" />
+	<property name="utils"		value="${basedir}/utils" />
+		
+	<!-- Otras variables -->
+	<property name="Prueba.class" value="Prueba.Prueba" />	
+	<property name="Principal.class" value="Control.Principal" />
+	
+	<!-- init -->
+	<target name="init" description="Crea el entorno de trabajo">
+		<mkdir dir="${classes}"/>
+	</target>
+
+	<!-- classpath -->
+	<path id="idClasspath">
+		<pathelement location="${classes}" />
+		<pathelement location="${utils}" />
+		<pathelement location="${lib}/junit.jar" />
+		<pathelement location="${lib}/dom4j-1.6.1.jar" />
+	</path>
+
+	<!-- seteo classpath -->
+	<target name="setClasspath" depends="init" description="Establece el classpath">
+		<property name="classpath" refid="idClasspath" />
+		<echo message="Classpath = ${classpath}" />
+	</target>
+
+	<!-- build -->
+	<target name="build" depends="setClasspath" description="Compila todos los fuentes del proyecto.">
+		<javac srcdir="${src}" destdir="${classes}" classpath="${classpath}" debug="on" fork="yes"/>
+	</target>
+
+	<!--  run  --> 
+ 	<target name="run" depends="build" description="Ejecuta la aplicacion">
+	  <java classname="${Principal.class}" classpathref="idClasspath" fork="true" /> 
+	</target>
+
+	<!--  test  --> 	
+	<target name="test" depends="build" description="Ejecuta un test del proyecto.">
+		<junit>
+			<classpath refid="idClasspath"/>
+			<formatter type="brief" usefile="false" />
+			<test name="${Prueba.class}" />
+		</junit>
+	</target>
+
+	
+</project>
